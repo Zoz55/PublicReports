@@ -6,6 +6,7 @@
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
+    "super": "bun upgrade && bun update && bun install",
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write ."
   },
