@@ -18,7 +18,6 @@ let chartdiv;
 const setupChart = () => {
 let root = am5.Root.new(chartdiv);
 
-
 var chart = root.container.children.push(am5xy.XYChart.new(root, {
   panX: true,
   panY: true,
