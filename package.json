@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "vite build && bun ./build/index.js",
     "preview": "vite preview",
     "super": "bun upgrade && bun update && bun install",
     "lint": "prettier --check . && eslint .",
