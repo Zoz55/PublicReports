@@ -1,4 +1,4 @@
-import adapter from "@catdadcode/svelte-adapter-bun";
+import adapter from "@sveltejs//adapter-auto";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
